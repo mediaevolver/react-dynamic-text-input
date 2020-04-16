@@ -47,7 +47,7 @@ function App() {
   })
 
   const failTest = () => {
-    setActivityState('Oops! something has gone terribly wrong!')
+    setActivityState('Oops! Something has gone terribly wrong!')
     setTimeout(() => setActivityState(null), 1000)
     setInputValue('Hello World')
     setDisplayState(true)
