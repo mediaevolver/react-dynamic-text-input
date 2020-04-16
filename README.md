@@ -12,6 +12,11 @@ Create component to edit values inline. This component should appear as a normal
 * On error a message will display under the text
 
 ## Running Instructions
-* yarn
-* yarn start
-* yarn test
+* yarn -  add dependencies
+* yarn start - run the application
+* yarn test a - run the test suite
+
+## Usage Instructions
+
+* To test the "happy" path, click the Hello World message, then type any letters except for letter "z" in the input box, then press Enter, or click outside the input box.
+* To test the "error" path, click the Hello World message, then type the letter z in the input box.
